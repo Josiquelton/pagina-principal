@@ -1,0 +1,175 @@
+
+nav{
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #303030;
+    padding-left: 600px;
+    display: flex;
+    font-family: verdana;
+    
+    
+}
+
+
+
+nav ul{
+    word-spacing: 45px;
+    
+}
+
+nav ul:hover{
+    color: #1E90FF;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    color: #1E90FF;
+}
+
+form{
+    margin-top: 150px;
+    margin-left: 500px;
+    font-family: verdana;
+    
+}
+
+form input{
+    width: 400px;
+    border: 2px solid black;
+    background-color: #6495ED;
+    border-radius: 4px;
+    padding-left: 15px;
+    
+}
+
+form label{
+    color: #6495ED;
+}
+
+::placeholder{
+    color: white;
+}
+
+form textarea{
+    background-color: #6495ED;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+button{
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #6495ED;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+button:hover{
+    color: #6495ED;
+    background-color: #FFFFFF;
+    border: 1px solid #6495ED;
+    border-radius: 6px;
+}
+
+
+footer{
+    color: #FFFFFF;
+    margin-top: 200px;
+    font-family: verdana;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #303030;
+}
+
+footer img{
+    margin-top: -300px;
+    width: 10%;
+    margin-left: 1220px;
+    border-radius: 10px;
+    
+   
+}
+
+footer li{
+    font-family: verdana;
+    list-style-type: none;
+    padding-top: -10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    color: #1E90FF;
+}
+
+
+.title{
+    color: #1E90FF;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("./public/jls.jpg");
+    background-color: #303030;
+    padding: 150px 45px 200px 560px;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+    margin-left: 80px;
+}
+
+.title2{
+    font-family: verdana;
+    padding-left: 160px;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius:8px ;
+    background: linear-gradient(45deg, #00ffff, #00bfff, #0080ff,#0040ff);
+    background-size: 400% 100% ;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.title:hover{
+    color: #FFFFFF;
+    
+}
+
+.phraseOne{
+    color: red;
+    padding-top: 10px;
+    margin-left: 400px;
+
+}
+
+.phraseTwo{
+    color:yellow;
+    margin-left: 860px;
+}
+
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+    
+}
